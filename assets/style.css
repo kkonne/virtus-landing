@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Verdana";
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+  #landing {
+    height: 100vh;
+    background-image: url("https://images.pexels.com/photos/270366/pexels-photo-270366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text-shadow {
+    text-shadow: 2px 2px 20px #000000;
+  }
+  
+  .parallax {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  #contact-image {
+    height: 500px;
+    background-image: url("https://images.pexels.com/photos/5239868/pexels-photo-5239868.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  }
+  
+  .contact-main .col-md-5 {
+    max-height: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-main {
+    position: relative;
+    margin-top: -150px;
+  }
+  
+  .accentColor {
+    color: #80c4ec;
+  }
+  
+  #partners .col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .brand-logo {
+    width: 100%;
+    opacity: 0.7;
+  }
